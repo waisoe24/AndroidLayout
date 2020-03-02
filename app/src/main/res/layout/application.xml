@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="186dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+
+
+        android:src="@drawable/gentleman"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="John McDonald"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="*Los Angles,CA"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintTop_toTopOf="@id/t1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="34"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:text="Posts"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:text="1350"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="120dp"
+        android:text="Followers"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="122dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+
+        android:background="@drawable/apps"
+        android:text="Follow"
+        android:textColor="#ffffff"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/image1"
+        app:layout_constraintTop_toTopOf="@id/t1" />
+
+
+    <ImageView
+        android:id="@+id/man1"
+        android:layout_width="75dp"
+        android:layout_height="99dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="344dp"
+        android:src="@drawable/j1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/man2"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/man2"
+        android:layout_width="77dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="440dp"
+        android:src="@drawable/j2"
+        app:layout_constraintLeft_toRightOf="@+id/man1"
+        app:layout_constraintRight_toLeftOf="@id/man3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/man3"
+        android:layout_width="103dp"
+        android:layout_height="154dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="344dp"
+        android:src="@drawable/j3"
+
+        app:layout_constraintLeft_toRightOf="@+id/man2"
+        app:layout_constraintRight_toRightOf="@id/man4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/man4"
+        android:layout_width="104dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="268dp"
+        android:src="@drawable/j4"
+        app:layout_constraintLeft_toRightOf="@id/man3"
+        app:layout_constraintRight_toLeftOf="@id/man5"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/man5"
+        android:layout_width="73dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="248dp"
+        android:src="@drawable/j5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@id/man4"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
